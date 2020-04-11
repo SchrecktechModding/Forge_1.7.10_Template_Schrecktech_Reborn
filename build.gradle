@@ -10,10 +10,14 @@ buildscript {
 			name = "sonatype"
 			url = "https://oss.sonatype.org/content/repositories/snapshots/"
 		}
+		maven {
+			url = "https://plugins.gradle.org/m2/"
+		}
 	}
 	dependencies {
 		classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
 		classpath 'de.undercouch:gradle-download-task:3.2.0'
+		classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
 	}
 }
 
@@ -33,7 +37,7 @@ eclipse {
 }
 
 apply plugin: 'idea'
-idea{
+idea {
 	module {
 		downloadJavadoc = true
 		downloadSources = true
@@ -41,6 +45,10 @@ idea{
 }
 
 apply plugin: 'forge'
+apply plugin: "com.wynprice.cursemaven"
+
+// Define properties file
+ext.configFile = file "build.properties"
 
 version = "0.0.0"
 group = "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
@@ -51,27 +59,25 @@ minecraft {
 	runDir = ".minecraft"
 }
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
-compileJava.options.bootClasspath = org.gradle.internal.jvm.Jvm.current().getJre().getHomeDir().toString() +"/lib/rt.jar"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
+	maven {
+		name = 'Curseforge Maven'
+		url = 'http://minecraft.curseforge.com/api/maven/'
+	}
+	maven {
+		name = "forge"
+		url = "https://files.minecraftforge.net/maven"
+	}
 	maven {
 		name = "gt"
 		url = "http://gregtech.overminddl1.com/"
 	}
-	/* Optional other repo's, not needed for the below listed optional dependencies
-	maven {
-		name = "OC repo"
-		url = "http://maven.cil.li/"
-	}
 	maven {
 		name = "ic2"
 		url = "http://maven.ic2.player.to/"
-	}
-	maven {
-		name = "jabba"
-		url = "http://default.mobiusstrip.eu/maven"
 	}
 	maven {
 		name = "chickenbones"
@@ -81,25 +87,115 @@ repositories {
 		name = "Apple"
 		url "http://www.ryanliptak.com/maven/"
 	}
-	ivy {
-		name "BuildCraft"
-		artifactPattern "http://www.mod-buildcraft.com/releases/BuildCraft/[revision]/[module]-[revision](-[classifier]).[ext]"
+	maven {
+		name = 'progwml6'
+		url = 'https://dvs1.progwml6.com/files/maven/'
 	}
-	*/
+	maven { //chisel
+		name = "Tterrag"
+		url = "http://maven.tterrag.com/"
+	}
+	maven {
+		name = "OpenComputers Repo"
+		url = "http://maven.cil.li/"
+	}
+	maven { //jabba, waila
+		name = "Mobius"
+		url = "http://mobiusstrip.eu/maven/"
+	}
+	maven {
+		name = "bdew"
+		url = "https://jenkins.bdew.net/maven/"
+	}
+	maven {
+		name = "codingLib"
+		url = "http://api.dmodoomsirius.me/"
+	}
+	maven {
+		name = "gorymoon"
+		url = "https://gorymoon.se/maven"
+	}
 }
 
 dependencies {
-	// `compile` means it is both compiled with and run with `run*`
-	// `compileOnly` means it is only used to compile with but not run in dev via run*
+/*  `compile` means it is both compiled with and run with `run*`
+	`compileOnly` means it is only used to compile with but not run in dev via run*
 
-	// real example
-	//compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
+	real example
+	compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
 
-	// for more info...
-	// http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-	// http://www.gradle.org/docs/current/userguide/dependency_management.html
+	for more info...
+	http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+	http://www.gradle.org/docs/current/userguide/dependency_management.html
+*/
+
+	// Reborn Base mods.
+	// if you find better repos, please make a pull request!
+	compile "curse.maven:AIImprovements-1.7.10-0.0.1b19-dev:2252676"
+	compile "applecore:AppleCore:1.7.10-3.1.1:deobf"
+	compile "appeng:appliedenergistics2:rv3-beta-6:dev"
+	compile "curse.maven:ArchitectureCraft-1.7.2-mc1.7.10:2352554"
+	compile "aroma1997core:Aroma1997Core:1.7.10:1.0.2.16"
+	compile "aromabackup:AromaBackup:1.7.10:0.1.0.0"
+	compile "aroma1997s-dimensional-world:Aroma1997s-Dimensional-World:1.7.10:1.1.0.1"
+	compile "baubles:Baubles:1.7.10:1.0.1.10"
+	compile "net.bdew:bdlib:1.9.4.109-mc1.7.10"
+	compile "curse.maven:BetterBuildersWands-0.8.1-1.7.10r92+aec06c3-dev:2356821"
+	compile "curse.maven:biggerpacketsplz-upto1.7.10-1.2:2655844"
+	compile "curse.maven:bigtrees-0.2-1.7.10:2273910"
+	compile "binnie:binnie-mods:1.7.10-2.0.22:dev"
+	compile "com.github.glitchfiend.biomesoplenty:BiomesOPlenty:1.7.10-2.1.0.2308:deobf"
+	compile files("lib/BrandonsCore-1.0.0.12.jar")
+	compile "curse.maven:Carpenter's Blocks v3.3.8.2 - MC 1.7.10:2719376"
+	compile "chisel:Chisel:2.9.5.11:deobf"
+	compile "codechicken:CodeChickenCore:1.7.10-1.0.7.47:dev"
+	compile "codechicken:CodeChickenLib:1.7.10-1.1.3.140:dev"
+	compile "codechicken:ForgeMultipart:1.7.10-1.2.0.347:dev"
+	compile "com.builtbroken.codinglib:CodingLib:0.2.8b54"
+	compile "cofh:CoFHCore:1.7.10R3.0.4:dev"
+	compile "cofh:CoFHLib:1.7.10R3.0.3:dev"
+	compile "controlling:Controlling:1.7.10:1.0.0"
+	compile "curse.maven:cookingbook-mc1.7.10-1.0.140:2299135"
+	compile "coroutil:coroutil:1.7.10:1.1.6"
+	compile "crafting-tweaks:craftingtweaks:mc1.7.10:1.0.88"
+	compile "curse.maven:CraftTweaker-1.7.10-3.1.0-legacy:2838720"
+	compile "curse.maven:Draconic-Evolution-1.7.10-1.0.2h-deobf:2313452"
+	compile "curse.maven:EnchantingPlus-1.7.10-3.0.2-d:2218324"
+	compile "curse.maven:EnhancedPortals-1.7.10-universal-3.0.12:2242378"
+	compile "curse.maven:externaltweaker-1.7.10-FINAL-0.3:2452853"
+	compile "curse.maven:extrabiomesxl.1.7.10-3.16.4:2273301"
+	compile "extracells:ExtraCells:1.7.10-2.3.14b200:deobf"
+	compile "curse.maven:extrautilities-1.2.12-deobf:2264384"
+	compile "farseek:Farseek:1.7.10:2.0.1"
+	compile "net.sengir.forestry:forestry_1.7.10:4.2.16.64:dev"
+	compile "com.amadornes.framez:Framez:1.7.10-0.2-33:deobf"
+	compile "se.gory_moon:GlobalGameRules:1.7.10-1.0"
+	compile files("lib/gregtech-5.09.32pre6.jar")
+	compile files("lib/GT-PlusPlus-1.7.04.483-dev.jar")
+	compile files("lib/GTTweaker-1.7.10-1.7.2.jar")
+	compile "hardcore-darkness:HardcoreDarkness:MC1.7.10:1.7"
+	compile "curse.maven:HelpFixer-1.0.7:2223813"
+	compile "nuclear-control-2:IC2NuclearControl:2.4.3a:dev"
+	compile "ichunutil:iChunUtil:4.2.3:deobf"
+	compile "net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev"
+	compile "atomicstrykers-infernal-mobs:InfernalMobs:1.7.10"
+	compile "infini-tic:Infini-TiC:1.7.10:0.1.5.DEV.324b697"
+	compile "curse.maven:INpureCore-[1.7.10]1.0.0B9-62:2238507"
+	compile "curse.maven:InventoryTweaks-1.59-dev-152:2210792"
+	compile "iron-chests:ironchest-1.7.10:6.0.62.742:universal"
+	compile "mcp.mobius.jabba:Jabba:1.2.2_1.7.10:dev"
+	compile "journeymap:journeymap-1.7.10:5.1.4p2:unlimited"
+
+	compile "codechicken:NotEnoughItems:1.7.10-1.0.5.120:dev"
 }
 
+runClient {
+	jvmArgs "-Xmx4096m", "-Xms1024m"
+}
+
+runServer {
+	jvmArgs "-Xmx4096m", "-Xms1024m"
+}
 
 processResources {
 	// this will ensure that this task is redone when the versions change.
@@ -111,7 +207,7 @@ processResources {
 		include 'mcmod.info'
 
 		// replace version and mcversion
-		expand 'version':project.version, 'mcversion':project.minecraft.version
+		expand 'version': project.version, 'mcversion': project.minecraft.version
 	}
 
 	// copy everything else, thats not the mcmod.info

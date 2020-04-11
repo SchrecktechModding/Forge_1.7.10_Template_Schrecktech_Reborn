@@ -31,5 +31,95 @@
       <option name="name" value="minecraft" />
       <option name="url" value="https://libraries.minecraft.net/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="chickenbones" />
+      <option name="name" value="chickenbones" />
+      <option name="url" value="http://chickenbones.net/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="OC repo" />
+      <option name="name" value="OC repo" />
+      <option name="url" value="http://maven.cil.li/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ic2" />
+      <option name="name" value="ic2" />
+      <option name="url" value="http://maven.ic2.player.to/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Apple" />
+      <option name="name" value="Apple" />
+      <option name="url" value="http://www.ryanliptak.com/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jabba" />
+      <option name="name" value="jabba" />
+      <option name="url" value="http://default.mobiusstrip.eu/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="progwml6" />
+      <option name="name" value="progwml6" />
+      <option name="url" value="https://dvs1.progwml6.com/files/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Curseforge Maven" />
+      <option name="name" value="Curseforge Maven" />
+      <option name="url" value="http://minecraft.curseforge.com/api/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Tterrag" />
+      <option name="name" value="Tterrag" />
+      <option name="url" value="http://maven.tterrag.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mobius" />
+      <option name="name" value="Mobius" />
+      <option name="url" value="http://mobiusstrip.eu/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Aroma" />
+      <option name="name" value="Aroma" />
+      <option name="url" value="file:/$PROJECT_DIR$/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Aroma" />
+      <option name="name" value="Aroma" />
+      <option name="url" value="http://files.aroma1997.org/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mobius" />
+      <option name="name" value="Mobius" />
+      <option name="url" value="http://mobiusstrip.eu/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Aroma" />
+      <option name="name" value="Aroma" />
+      <option name="url" value="http://files.aroma1997.org/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vexatos" />
+      <option name="name" value="vexatos" />
+      <option name="url" value="http://files.vexatos.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://jenkins.bdew.net/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="forge2" />
+      <option name="name" value="forge2" />
+      <option name="url" value="https://files.minecraftforge.net/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="codingLib" />
+      <option name="name" value="codingLib" />
+      <option name="url" value="http://api.dmodoomsirius.me/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="goorymoon" />
+      <option name="name" value="goorymoon" />
+      <option name="url" value="https://gorymoon.se/maven" />
+    </remote-repository>
   </component>
 </project>
