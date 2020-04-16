@@ -1,64 +1,832 @@
+:compileApiJava NO-SOURCE
+:processApiResources NO-SOURCE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava
+Invalid cookie header: "Set-Cookie: AWSALB=WElU5O8H6ofjrCNVoMewLnlY0GB/EHIB19436NPAb7FL/YuQ0fOrJhjCkcVEeOVz+1SGpK7ffNQRYbQocX2FFaljRg5cHYvAPoGC4ev6XlXzUpxGIV0qs4PIu5z+; Expires=Thu, 23 Apr 2020 13:19:03 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:03 GMT
+Invalid cookie header: "Set-Cookie: AWSALBCORS=WElU5O8H6ofjrCNVoMewLnlY0GB/EHIB19436NPAb7FL/YuQ0fOrJhjCkcVEeOVz+1SGpK7ffNQRYbQocX2FFaljRg5cHYvAPoGC4ev6XlXzUpxGIV0qs4PIu5z+; Expires=Thu, 23 Apr 2020 13:19:03 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:03 GMT
+Invalid cookie header: "Set-Cookie: AWSALB=PxxAxyzy7Cy1DAxsATdu98YA/3gyjPgXWBFVOvCAnQZSQ369lxHArKUpqaEbPVJmMc8DhNYLpmQNanDXl5YsgK5S34leO9fWOJdTjvBM4LiFiSDkcRCoQ10Q9QI6; Expires=Thu, 23 Apr 2020 13:19:04 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:04 GMT
+Invalid cookie header: "Set-Cookie: AWSALBCORS=PxxAxyzy7Cy1DAxsATdu98YA/3gyjPgXWBFVOvCAnQZSQ369lxHArKUpqaEbPVJmMc8DhNYLpmQNanDXl5YsgK5S34leO9fWOJdTjvBM4LiFiSDkcRCoQ10Q9QI6; Expires=Thu, 23 Apr 2020 13:19:04 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:04 GMT
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runClient
+Invalid cookie header: "Set-Cookie: AWSALB=Ohgtr+Ro+HF2UV8ojw25vHJmo9u4p7PGH1rPnTijPp0ZVU5TippweQOBxU/Y2e+H1DAKK99C8rCE2dxIzP1CibNyF7TXh5DLYXbDntUScJFdW6JUEoPb6Dbf+2ne; Expires=Thu, 23 Apr 2020 13:19:06 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:06 GMT
+Invalid cookie header: "Set-Cookie: AWSALBCORS=Ohgtr+Ro+HF2UV8ojw25vHJmo9u4p7PGH1rPnTijPp0ZVU5TippweQOBxU/Y2e+H1DAKK99C8rCE2dxIzP1CibNyF7TXh5DLYXbDntUScJFdW6JUEoPb6Dbf+2ne; Expires=Thu, 23 Apr 2020 13:19:06 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:06 GMT
+Invalid cookie header: "Set-Cookie: AWSALB=Ci1qHFgKux3TGE3qNK8Jk7iGa3tD7qfS6+ZO2PBxWtSPQgLpq2FBFI38/M1PCrn0do2oChYVdp0IACBtMYBo908PgA4xCeN10E2roKoTtr1hVKmL5pGJLDPkhby1; Expires=Thu, 23 Apr 2020 13:19:06 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:06 GMT
+Invalid cookie header: "Set-Cookie: AWSALBCORS=Ci1qHFgKux3TGE3qNK8Jk7iGa3tD7qfS6+ZO2PBxWtSPQgLpq2FBFI38/M1PCrn0do2oChYVdp0IACBtMYBo908PgA4xCeN10E2roKoTtr1hVKmL5pGJLDPkhby1; Expires=Thu, 23 Apr 2020 13:19:06 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 13:19:06 GMT
+[15:19:07] [main/INFO] [GradleStart]: Extra: []
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: com.brandon3055.brandonscore.asm.LoadingPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: gtPlusPlus.preloader.asm.Preloader_FMLLoadingPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: squeek.applecore.AppleCore
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: appeng.transformer.AppEngCore
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: aroma1997.core.coremod.CoreMod
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: net.elnounch.mc.biggerpacketsplz.BiggerPacketsPlzCoreMod
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: codechicken.core.launch.DepLoader
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: net.blay09.mods.craftingtweaks.coremod.CraftingTweaksLoadingPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: farseek.core.FarseekCoreMod
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: lumien.hardcoredarkness.asm.LoadingPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: ic2.core.coremod.IC2core
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: info.inpureprojects.core.Preloader.INpurePreLoader
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: invtweaks.forge.asm.FMLPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: net.malisis.core.asm.MalisisCorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: openblocks.OpenBlocksCorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: li.cil.oc.common.launch.TransformerLoader
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: openmods.core.OpenModsCorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: codechicken.core.launch.DepLoader
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: cr0s.warpdrive.core.FMLLoadingPlugin
+[15:19:07] [main/INFO] [GradleStart]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[15:19:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/sxlga/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:19:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:19:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:19:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:19:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:19:07] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[15:19:07] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_241\jre
+[15:19:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : aroma1997.core.coremod.CoreMod
+[15:19:07] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
+[15:19:07] [main/WARN] [FML]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : net.malisis.core.asm.MalisisCorePlugin
+[15:19:07] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : li.cil.oc.common.launch.TransformerLoader
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : com.brandon3055.brandonscore.asm.LoadingPlugin
+[15:19:07] [main/INFO] [FML]: Found a command line coremod : ic2.core.coremod.IC2core
+[15:19:08] [main/WARN] [FML]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : squeek.applecore.AppleCore
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[15:19:08] [main/WARN] [FML]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : gtPlusPlus.preloader.asm.Preloader_FMLLoadingPlugin
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : farseek.core.FarseekCoreMod
+[15:19:08] [main/WARN] [FML]: The coremod farseek.core.FarseekCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : openblocks.OpenBlocksCorePlugin
+[15:19:08] [main/WARN] [FML]: The coremod openblocks.OpenBlocksCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : invtweaks.forge.asm.FMLPlugin
+[15:19:08] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : net.elnounch.mc.biggerpacketsplz.BiggerPacketsPlzCoreMod
+[15:19:08] [main/WARN] [FML]: The coremod net.elnounch.mc.biggerpacketsplz.BiggerPacketsPlzCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : cr0s.warpdrive.core.FMLLoadingPlugin
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : info.inpureprojects.core.Preloader.INpurePreLoader
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : lumien.hardcoredarkness.asm.LoadingPlugin
+[15:19:08] [main/WARN] [FML]: The coremod lumien.hardcoredarkness.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : codechicken.core.launch.DepLoader
+[15:19:08] [main/WARN] [FML]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : net.blay09.mods.craftingtweaks.coremod.CraftingTweaksLoadingPlugin
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : appeng.transformer.AppEngCore
+[15:19:08] [main/INFO] [FML]: [AppEng] Core Init
+[15:19:08] [main/INFO] [FML]: Found a command line coremod : openmods.core.OpenModsCorePlugin
+[15:19:08] [main/WARN] [FML]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:19:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod aroma1997.core.coremod.CoreMod
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod net.malisis.core.asm.MalisisCorePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod li.cil.oc.common.launch.TransformerLoader
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod com.brandon3055.brandonscore.asm.LoadingPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod ic2.core.coremod.IC2core
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod squeek.applecore.AppleCore
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod gtPlusPlus.preloader.asm.Preloader_FMLLoadingPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod farseek.core.FarseekCoreMod
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod openblocks.OpenBlocksCorePlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod invtweaks.forge.asm.FMLPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod net.elnounch.mc.biggerpacketsplz.BiggerPacketsPlzCoreMod
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod cr0s.warpdrive.core.FMLLoadingPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod info.inpureprojects.core.Preloader.INpurePreLoader
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod lumien.hardcoredarkness.asm.LoadingPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.core.launch.DepLoader
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod net.blay09.mods.craftingtweaks.coremod.CraftingTweaksLoadingPlugin
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod appeng.transformer.AppEngCore
+[15:19:08] [main/INFO] [GradleStart]: Injecting location in coremod openmods.core.OpenModsCorePlugin
+[15:19:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:19:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:19:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:19:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:19:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:19:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:08] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[15:19:09] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:09] [main/INFO] [Aroma1997Core]: Finished data injection.
+[15:19:09] [main/INFO] [Aroma1997Core]: Finished data injection.
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [IC2-core]: Loaded library EJML-core-0.26.jar.
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [INpurePreloader]: Attempting to detect JVM version...
+[15:19:10] [main/INFO] [INpurePreloader]: Detected JVM: 1.8
+[15:19:10] [main/INFO] [INpurePreloader]: We are in dev mode!
+[15:19:10] [main/INFO] [INpurePreloader]: Starting library configuration...
+[15:19:10] [main/INFO] [INpureLogInterceptor]: System attached to FML. Now intercepting all logging calls.
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:19:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [malisiscore]: [ChunkCollisionTransformer] Hook registered for net.minecraft.world.World
+[15:19:11] [main/INFO] [malisiscore]: [ChunkCollisionTransformer] Hook registered for net.minecraft.world.World
+[15:19:11] [main/INFO] [malisiscore]: [ChunkCollisionTransformer] Hook registered for net.minecraft.item.ItemBlock
+[15:19:11] [main/INFO] [malisiscore]: [ChunkCollisionTransformer] Hook registered for net.minecraft.network.NetHandlerPlayServer
+[15:19:11] [main/INFO] [malisiscore]: [ChunkBlockTransformer] Hook registered for net.minecraft.world.chunk.Chunk
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:19:11] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Chunk Debugging - Enabled: false
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Gt Nbt Fix - Enabled: true
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] TiCon Fluid Lighting - Enabled: true
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Gt Tooltip Fix - Enabled: true
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] COFH Patch - Enabled: false
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Gc Fuel Changes Patch - Enabled: false
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Railcraft Fluid Flow Patch - Enabled: true
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Thaumcraft Aspect Safety Patch - Enabled: true
+[15:19:11] [main/INFO] [FML]: [GT++ ASM] Fix bad usage of EntityLivingBase.setHealth Patch - Enabled: false
+[15:19:11] [main/INFO] [STDOUT]: [gtPlusPlus.preloader.asm.transformers.Preloader_Transformer_Handler:<clinit>:30]: [GT++ ASM] Asm Config Location: C:\Users\sxlga\IdeaProjects\Forge_1.7.10_Template_Schrecktech_Reborn\.minecraft\config\GTplusplus\asm.cfg
+[15:19:11] [main/INFO] [GT++]: [DevHelper] mInitMap size: 4819
+[15:19:11] [main/INFO] [GT++]: [DevHelper] mObInitMap size: 1832
+[15:19:11] [main/INFO] [GT++]: [DevHelper] srgToForge size: 4819
+[15:19:11] [main/INFO] [GT++]: [DevHelper] forgeToSrg size: 4311
+[15:19:11] [main/INFO] [GT++]: [DevHelper] obToDeOb size: 1832
+[15:19:11] [main/INFO] [GT++]: [DevHelper] deObToOb size: 1832
+[15:19:11] [main/INFO] [STDOUT]: [gtPlusPlus.preloader.asm.transformers.Preloader_Transformer_Handler:<clinit>:31]: [GT++ ASM] Is DevHelper Valid? true
+[15:19:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:19:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:19:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:19:12] [main/INFO] [net.blay09.mods.craftingtweaks.coremod.GuiScreenClassTransformer]: CraftingTweaks will now patch handleMouseInput in net.minecraft.client.gui.GuiScreen...
+[15:19:12] [main/INFO] [net.blay09.mods.craftingtweaks.coremod.GuiScreenClassTransformer]: CraftingTweaks successfully patched handleMouseInput in net.minecraft.client.gui.GuiScreen!
+[15:19:12] [main/INFO] [malisiscore]: Found hooks for net.minecraft.world.World (net.minecraft.world.World)
+[15:19:12] [main/INFO] [HardcoreDarkness]: Found World Class: net/minecraft/world/World
+[15:19:12] [main/INFO] [HardcoreDarkness]:  - Patched minimal sky light (1)
+[15:19:12] [main/INFO] [HardcoreDarkness]:  - Patched minimal sky light (2)
+[15:19:12] [main/INFO] [WarpDriveCore]: Successful injection in net/minecraft/client/multiplayer/WorldClient
+[15:19:12] [main/INFO] [WarpDriveCore]: Successful injection in net/minecraft/entity/EntityLivingBase
+[15:19:13] [main/ERROR] [LaunchWrapper]: Unable to launch
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/gui/inventory/GuiInventory
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.inventory.GuiInventory
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/renderer/InventoryEffectRenderer
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.InventoryEffectRenderer
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/gui/inventory/GuiContainer
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.inventory.GuiContainer
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Error transforming method: [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V]
+	at codechicken.nei.asm.NEITransformer.transform(NEITransformer.java:267) ~[NotEnoughItems-1.7.10-2.0.1-GTNH-universal-2906319.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.RuntimeException: Error transforming method: [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V]
+	at codechicken.lib.asm.ModularASMTransformer$MethodTransformer.transform(ModularASMTransformer.java:90) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer$ClassNodeTransformerList.transform(ModularASMTransformer.java:36) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer.transform(ModularASMTransformer.java:283) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.nei.asm.NEITransformer.transform(NEITransformer.java:265) ~[NotEnoughItems-1.7.10-2.0.1-GTNH-universal-2906319.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+Caused by: java.lang.RuntimeException: Needle not found in Haystack:
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.manager : Lcodechicken/nei/guihook/GuiContainerManager;
+    INVOKEVIRTUAL codechicken/nei/guihook/GuiContainerManager.preDraw ()V
+   L0
+    LINENUMBER 92 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.drawDefaultBackground ()V
+   L1
+    LINENUMBER 93 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.guiLeft : I
+    ISTORE 4
+   L2
+    LINENUMBER 94 L2
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.guiTop : I
+    ISTORE 5
+   L3
+    LINENUMBER 95 L3
+    ALOAD 0
+    FLOAD 3
+    ILOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.drawGuiContainerBackgroundLayer (FII)V
+   L4
+    LINENUMBER 96 L4
+    LDC 32826
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L5
+    LINENUMBER 97 L5
+    INVOKESTATIC net/minecraft/client/renderer/RenderHelper.disableStandardItemLighting ()V
+   L6
+    LINENUMBER 98 L6
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L7
+    LINENUMBER 99 L7
+    SIPUSH 2929
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L8
+    LINENUMBER 100 L8
+    ALOAD 0
+    ILOAD 1
+    ILOAD 2
+    FLOAD 3
+    INVOKESPECIAL net/minecraft/client/gui/GuiScreen.drawScreen (IIF)V
+   L9
+    LINENUMBER 101 L9
+    INVOKESTATIC net/minecraft/client/renderer/RenderHelper.enableGUIStandardItemLighting ()V
+   L10
+    LINENUMBER 102 L10
+    INVOKESTATIC org/lwjgl/opengl/GL11.glPushMatrix ()V
+   L11
+    LINENUMBER 103 L11
+    ILOAD 4
+    I2F
+    ILOAD 5
+    I2F
+    FCONST_0
+    INVOKESTATIC org/lwjgl/opengl/GL11.glTranslatef (FFF)V
+   L12
+    LINENUMBER 104 L12
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC org/lwjgl/opengl/GL11.glColor4f (FFFF)V
+   L13
+    LINENUMBER 105 L13
+    LDC 32826
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L14
+    LINENUMBER 106 L14
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/gui/inventory/GuiContainer.theSlot : Lnet/minecraft/inventory/Slot;
+   L15
+    LINENUMBER 107 L15
+    SIPUSH 240
+    ISTORE 6
+   L16
+    LINENUMBER 108 L16
+    SIPUSH 240
+    ISTORE 7
+   L17
+    LINENUMBER 109 L17
+    GETSTATIC net/minecraft/client/renderer/OpenGlHelper.lightmapTexUnit : I
+    ILOAD 6
+    I2F
+    FCONST_1
+    FDIV
+    ILOAD 7
+    I2F
+    FCONST_1
+    FDIV
+    INVOKESTATIC net/minecraft/client/renderer/OpenGlHelper.setLightmapTextureCoords (IFF)V
+   L18
+    LINENUMBER 110 L18
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC org/lwjgl/opengl/GL11.glColor4f (FFFF)V
+   L19
+    LINENUMBER 113 L19
+    ICONST_0
+    ISTORE 8
+   L20
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I I] []
+    ILOAD 8
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.inventorySlots : Lnet/minecraft/inventory/Container;
+    GETFIELD net/minecraft/inventory/Container.inventorySlots : Ljava/util/List;
+    INVOKEINTERFACE java/util/List.size ()I
+    IF_ICMPGE L21
+   L22
+    LINENUMBER 115 L22
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.inventorySlots : Lnet/minecraft/inventory/Container;
+    GETFIELD net/minecraft/inventory/Container.inventorySlots : Ljava/util/List;
+    ILOAD 8
+    INVOKEINTERFACE java/util/List.get (I)Ljava/lang/Object;
+    CHECKCAST net/minecraft/inventory/Slot
+    ASTORE 9
+   L23
+    LINENUMBER 116 L23
+    ALOAD 0
+    ALOAD 9
+    INVOKESPECIAL net/minecraft/client/gui/inventory/GuiContainer.drawSlot (Lnet/minecraft/inventory/Slot;)V
+   L24
+    LINENUMBER 118 L24
+    ALOAD 0
+    ALOAD 9
+    ILOAD 1
+    ILOAD 2
+    INVOKESPECIAL net/minecraft/client/gui/inventory/GuiContainer.isMouseOverSlot (Lnet/minecraft/inventory/Slot;II)Z
+    IFEQ L25
+    ALOAD 9
+    INVOKEVIRTUAL net/minecraft/inventory/Slot.canBeHovered ()Z
+    IFEQ L25
+   L26
+    LINENUMBER 120 L26
+    ALOAD 0
+    ALOAD 9
+    PUTFIELD net/minecraft/client/gui/inventory/GuiContainer.theSlot : Lnet/minecraft/inventory/Slot;
+   L27
+    LINENUMBER 121 L27
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L28
+    LINENUMBER 122 L28
+    SIPUSH 2929
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L29
+    LINENUMBER 123 L29
+    ALOAD 9
+    GETFIELD net/minecraft/inventory/Slot.xDisplayPosition : I
+    ISTORE 10
+   L30
+    LINENUMBER 124 L30
+    ALOAD 9
+    GETFIELD net/minecraft/inventory/Slot.yDisplayPosition : I
+    ISTORE 11
+   L31
+    LINENUMBER 125 L31
+    ICONST_1
+    ICONST_1
+    ICONST_1
+    ICONST_0
+    INVOKESTATIC org/lwjgl/opengl/GL11.glColorMask (ZZZZ)V
+   L32
+    LINENUMBER 126 L32
+    ALOAD 0
+    ILOAD 10
+    ILOAD 11
+    ILOAD 10
+    BIPUSH 16
+    IADD
+    ILOAD 11
+    BIPUSH 16
+    IADD
+    LDC -2130706433
+    LDC -2130706433
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.drawGradientRect (IIIIII)V
+   L33
+    LINENUMBER 127 L33
+    ICONST_1
+    ICONST_1
+    ICONST_1
+    ICONST_1
+    INVOKESTATIC org/lwjgl/opengl/GL11.glColorMask (ZZZZ)V
+   L34
+    LINENUMBER 128 L34
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L35
+    LINENUMBER 129 L35
+    SIPUSH 2929
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L25
+    LINENUMBER 113 L25
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I I] []
+    IINC 8 1
+    GOTO L20
+   L21
+    LINENUMBER 135 L21
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I] []
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glDisable (I)V
+   L36
+    LINENUMBER 136 L36
+    ALOAD 0
+    ILOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.drawGuiContainerForegroundLayer (II)V
+   L37
+    LINENUMBER 137 L37
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L38
+    LINENUMBER 138 L38
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.mc : Lnet/minecraft/client/Minecraft;
+    GETFIELD net/minecraft/client/Minecraft.thePlayer : Lnet/minecraft/client/entity/EntityClientPlayerMP;
+    GETFIELD net/minecraft/client/entity/EntityClientPlayerMP.inventory : Lnet/minecraft/entity/player/InventoryPlayer;
+    ASTORE 8
+   L39
+    LINENUMBER 139 L39
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.draggedStack : Lnet/minecraft/item/ItemStack;
+    IFNONNULL L40
+    ALOAD 8
+    INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
+    GOTO L41
+   L40
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.draggedStack : Lnet/minecraft/item/ItemStack;
+   L41
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer] [net/minecraft/item/ItemStack]
+    ASTORE 9
+   L42
+    LINENUMBER 141 L42
+    ALOAD 9
+    IFNULL L43
+   L44
+    LINENUMBER 143 L44
+    BIPUSH 8
+    ISTORE 10
+   L45
+    LINENUMBER 144 L45
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.draggedStack : Lnet/minecraft/item/ItemStack;
+    IFNONNULL L46
+    BIPUSH 8
+    GOTO L47
+   L46
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack I] []
+    BIPUSH 16
+   L47
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack I] [I]
+    ISTORE 11
+   L48
+    LINENUMBER 145 L48
+    ACONST_NULL
+    ASTORE 12
+   L49
+    LINENUMBER 147 L49
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.draggedStack : Lnet/minecraft/item/ItemStack;
+    IFNULL L50
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.isRightMouseClick : Z
+    IFEQ L50
+   L51
+    LINENUMBER 149 L51
+    ALOAD 9
+    INVOKEVIRTUAL net/minecraft/item/ItemStack.copy ()Lnet/minecraft/item/ItemStack;
+    ASTORE 9
+   L52
+    LINENUMBER 150 L52
+    ALOAD 9
+    ALOAD 9
+    GETFIELD net/minecraft/item/ItemStack.stackSize : I
+    I2F
+    FCONST_2
+    FDIV
+    INVOKESTATIC net/minecraft/util/MathHelper.ceiling_float_int (F)I
+    PUTFIELD net/minecraft/item/ItemStack.stackSize : I
+    GOTO L53
+   L50
+    LINENUMBER 152 L50
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack I I java/lang/String] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.dragSplitting : Z
+    IFEQ L53
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.dragSplittingSlots : Ljava/util/Set;
+    INVOKEINTERFACE java/util/Set.size ()I
+    ICONST_1
+    IF_ICMPLE L53
+   L54
+    LINENUMBER 154 L54
+    ALOAD 9
+    INVOKEVIRTUAL net/minecraft/item/ItemStack.copy ()Lnet/minecraft/item/ItemStack;
+    ASTORE 9
+   L55
+    LINENUMBER 155 L55
+    ALOAD 9
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.dragSplittingRemnant : I
+    PUTFIELD net/minecraft/item/ItemStack.stackSize : I
+   L56
+    LINENUMBER 157 L56
+    ALOAD 9
+    GETFIELD net/minecraft/item/ItemStack.stackSize : I
+    IFNE L53
+   L57
+    LINENUMBER 159 L57
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC ""
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    GETSTATIC net/minecraft/util/EnumChatFormatting.YELLOW : Lnet/minecraft/util/EnumChatFormatting;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    LDC "0"
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ASTORE 12
+   L53
+    LINENUMBER 163 L53
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack I I java/lang/String] []
+    ALOAD 0
+    ALOAD 9
+    ILOAD 1
+    ILOAD 4
+    ISUB
+    ILOAD 10
+    ISUB
+Exception in thread "main"     ILOAD 2
+    ILOAD 5
+    ISUB
+    ILOAD 11
+    ISUB
+    ALOAD 12
+    INVOKESPECIAL net/minecraft/client/gui/inventory/GuiContainer.drawItemStack (Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V
+   L43
+    LINENUMBER 166 L43
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStack : Lnet/minecraft/item/ItemStack;
+    IFNULL L58
+   L59
+    LINENUMBER 168 L59
+    INVOKESTATIC net/minecraft/client/Minecraft.getSystemTime ()J
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStackTime : J
+    LSUB
+    L2F
+    LDC 100.0
+    FDIV
+    FSTORE 10
+   L60
+    LINENUMBER 170 L60
+    FLOAD 10
+    FCONST_1
+    FCMPL
+    IFLT L61
+   L62
+    LINENUMBER 172 L62
+    FCONST_1
+    FSTORE 10
+   L63
+    LINENUMBER 173 L63
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStack : Lnet/minecraft/item/ItemStack;
+   L61
+    LINENUMBER 176 L61
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack F] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStackDestSlot : Lnet/minecraft/inventory/Slot;
+    GETFIELD net/minecraft/inventory/Slot.xDisplayPosition : I
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.touchUpX : I
+    ISUB
+    ISTORE 11
+   L64
+    LINENUMBER 177 L64
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStackDestSlot : Lnet/minecraft/inventory/Slot;
+    GETFIELD net/minecraft/inventory/Slot.yDisplayPosition : I
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.touchUpY : I
+    ISUB
+    ISTORE 12
+   L65
+    LINENUMBER 178 L65
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.touchUpX : I
+    ILOAD 11
+    I2F
+    FLOAD 10
+    FMUL
+    F2I
+    IADD
+    ISTORE 13
+   L66
+    LINENUMBER 179 L66
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.touchUpY : I
+    ILOAD 12
+    I2F
+    FLOAD 10
+    FMUL
+    F2I
+    IADD
+    ISTORE 14
+   L67
+    LINENUMBER 180 L67
+    ALOAD 0
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.returningStack : Lnet/minecraft/item/ItemStack;
+    ILOAD 13
+    ILOAD 14
+    ACONST_NULL
+    CHECKCAST java/lang/String
+    INVOKESPECIAL net/minecraft/client/gui/inventory/GuiContainer.drawItemStack (Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V
+   L58
+    LINENUMBER 183 L58
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack] []
+    INVOKESTATIC org/lwjgl/opengl/GL11.glPopMatrix ()V
+   L68
+    LINENUMBER 185 L68
+    ALOAD 8
+    INVOKEVIRTUAL net/minecraft/entity/player/InventoryPlayer.getItemStack ()Lnet/minecraft/item/ItemStack;
+    IFNONNULL L69
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.theSlot : Lnet/minecraft/inventory/Slot;
+    IFNULL L69
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.theSlot : Lnet/minecraft/inventory/Slot;
+    INVOKEVIRTUAL net/minecraft/inventory/Slot.getHasStack ()Z
+    IFEQ L69
+   L70
+    LINENUMBER 187 L70
+    ALOAD 0
+    GETFIELD net/minecraft/client/gui/inventory/GuiContainer.theSlot : Lnet/minecraft/inventory/Slot;
+    INVOKEVIRTUAL net/minecraft/inventory/Slot.getStack ()Lnet/minecraft/item/ItemStack;
+    ASTORE 10
+   L71
+    LINENUMBER 188 L71
+    ALOAD 0
+    ALOAD 10
+    ILOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.renderToolTip (Lnet/minecraft/item/ItemStack;II)V
+   L69
+    LINENUMBER 191 L69
+   FRAME FULL [net/minecraft/client/gui/inventory/GuiContainer I I F I I I I net/minecraft/entity/player/InventoryPlayer net/minecraft/item/ItemStack] []
+    SIPUSH 2896
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L72
+    LINENUMBER 192 L72
+    SIPUSH 2929
+    INVOKESTATIC org/lwjgl/opengl/GL11.glEnable (I)V
+   L73
+    LINENUMBER 193 L73
+    INVOKESTATIC net/minecraft/client/renderer/RenderHelper.enableStandardItemLighting ()V
+   L74
+    LINENUMBER 194 L74
+    RETURN
+   L75
 
-CONFIGURE SUCCESSFUL
 
-Total time: 1.701 secs
-Invalid cookie header: "Set-Cookie: AWSALB=+T5uyLkFuDqU5Y4puQGzXhW0PoQiGptIn5k18F5/0xIgY1SAnJI9GZUPf806RWcYKn1E0z41bBHMRd3LWAFytzf7maeBc1ey6MJH88gcefyUWB1rizlXUA9cZvb0; Expires=Thu, 23 Apr 2020 12:32:51 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:51 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=+T5uyLkFuDqU5Y4puQGzXhW0PoQiGptIn5k18F5/0xIgY1SAnJI9GZUPf806RWcYKn1E0z41bBHMRd3LWAFytzf7maeBc1ey6MJH88gcefyUWB1rizlXUA9cZvb0; Expires=Thu, 23 Apr 2020 12:32:51 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:51 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=y2nMzHDPBNZi+qCcwwDuGTmmVs/2ICkhHMr/lNnUEm5NWt9Lb5GNfHhEeaIm/WOTptDkLlvpXnoYZ/7pFa6j0sJO/xI7lx3pL6aeu7rxunndorrwK8aFZ1Kp5jvS; Expires=Thu, 23 Apr 2020 12:32:51 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:51 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=y2nMzHDPBNZi+qCcwwDuGTmmVs/2ICkhHMr/lNnUEm5NWt9Lb5GNfHhEeaIm/WOTptDkLlvpXnoYZ/7pFa6j0sJO/xI7lx3pL6aeu7rxunndorrwK8aFZ1Kp5jvS; Expires=Thu, 23 Apr 2020 12:32:51 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:51 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=r4CZKYAdW7AzW+IY68u2wdRS3/7m6Cd+40jk6Q3BF83cHOTHUsH1CL3lGOaZrAkWHx5ETky5ZVsiyNDd8iMHl/buojz223Y3yey9TXjlmSKFKO4VNF5pTajNVKPe; Expires=Thu, 23 Apr 2020 12:32:52 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:52 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=r4CZKYAdW7AzW+IY68u2wdRS3/7m6Cd+40jk6Q3BF83cHOTHUsH1CL3lGOaZrAkWHx5ETky5ZVsiyNDd8iMHl/buojz223Y3yey9TXjlmSKFKO4VNF5pTajNVKPe; Expires=Thu, 23 Apr 2020 12:32:52 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:52 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=b7JxnkpAx90IjxwcGem2LXo76ynXuCxgr+gfpyzzhuYN95plVJla04j3LtXQxnZjtsAArQf42xr02xunKb+xU9KnLEEmQVi2gcK64C5otwGPqiEy3EfxPGqL0xtT; Expires=Thu, 23 Apr 2020 12:32:52 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:52 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=b7JxnkpAx90IjxwcGem2LXo76ynXuCxgr+gfpyzzhuYN95plVJla04j3LtXQxnZjtsAArQf42xr02xunKb+xU9KnLEEmQVi2gcK64C5otwGPqiEy3EfxPGqL0xtT; Expires=Thu, 23 Apr 2020 12:32:52 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:52 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=VsQG6pkgcbLSVlEcb6fgpcMBA7izFjP4fqvAlllZXDeiouqsG7/YsSyVDro8WicYOUJRrR71Pl2cDK34cSRldnGg1xI2Atte4uuSYvxsHApZjMdlrVtYCaUo5mfc; Expires=Thu, 23 Apr 2020 12:32:53 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:53 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=VsQG6pkgcbLSVlEcb6fgpcMBA7izFjP4fqvAlllZXDeiouqsG7/YsSyVDro8WicYOUJRrR71Pl2cDK34cSRldnGg1xI2Atte4uuSYvxsHApZjMdlrVtYCaUo5mfc; Expires=Thu, 23 Apr 2020 12:32:53 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:53 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=teXMizxBcfCS+Ykzc/yTryPFHv5/hGuSxqRy9wq0VF0tdyhG5q+jaAjGMTWqTuVwDp2IMfZ0nuGM1diwXtl6uCxqFva3lJHyM+l7MiliyLwfsYm8Hb2XTXNtr+z1; Expires=Thu, 23 Apr 2020 12:32:54 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:54 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=teXMizxBcfCS+Ykzc/yTryPFHv5/hGuSxqRy9wq0VF0tdyhG5q+jaAjGMTWqTuVwDp2IMfZ0nuGM1diwXtl6uCxqFva3lJHyM+l7MiliyLwfsYm8Hb2XTXNtr+z1; Expires=Thu, 23 Apr 2020 12:32:54 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:54 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=M/4wow+NcQuP8QdYGIAXHchXZdezBMm5ckjYoQ+sKAL0onS5kaOKgaEKZpRkWxndlToGhw3ZwTw+1UU2PhwzuQLd6JAu9YVI2z9N5IXkqtya7Fxh0QJRb24LZ+QA; Expires=Thu, 23 Apr 2020 12:32:54 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:54 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=M/4wow+NcQuP8QdYGIAXHchXZdezBMm5ckjYoQ+sKAL0onS5kaOKgaEKZpRkWxndlToGhw3ZwTw+1UU2PhwzuQLd6JAu9YVI2z9N5IXkqtya7Fxh0QJRb24LZ+QA; Expires=Thu, 23 Apr 2020 12:32:54 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:54 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=IU/QZl6Fym7UTts0j34EZOB3QB8Kqt/puZofJR69dLVQXGXpRXTy2PquyRb06qefWD84RDrgE9D0o5dFfKLQqOfl6YLN1xIt0EsbHA87Wiydepq+odyZ86vMwJQo; Expires=Thu, 23 Apr 2020 12:32:55 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:55 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=IU/QZl6Fym7UTts0j34EZOB3QB8Kqt/puZofJR69dLVQXGXpRXTy2PquyRb06qefWD84RDrgE9D0o5dFfKLQqOfl6YLN1xIt0EsbHA87Wiydepq+odyZ86vMwJQo; Expires=Thu, 23 Apr 2020 12:32:55 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:55 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=HZ7fzwAKYpTNPMzIxm4kLPpCW+2QHbkeJBHTsw+YS8UWNVciNY2hUZqC+3kKMGMm8g2QkjiTnd9LOAVRk6MA+YVcr75fUUC0EhzJSfIoUMx4a7jVtSOa9LkCpAOr; Expires=Thu, 23 Apr 2020 12:32:55 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:55 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=HZ7fzwAKYpTNPMzIxm4kLPpCW+2QHbkeJBHTsw+YS8UWNVciNY2hUZqC+3kKMGMm8g2QkjiTnd9LOAVRk6MA+YVcr75fUUC0EhzJSfIoUMx4a7jVtSOa9LkCpAOr; Expires=Thu, 23 Apr 2020 12:32:55 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:55 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=roZXkXCqb21gPpzmzfcb7VmMa0jmSxuELRqtFfExhwoXUi/YTMWLXJ8yU7XdwTtUbvVzyelCMAjRXyTkJDI6NsUWu0Z/VA2eiUv0w5tfS2uDjFH/StYDpg8eXdp3; Expires=Thu, 23 Apr 2020 12:32:56 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:56 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=roZXkXCqb21gPpzmzfcb7VmMa0jmSxuELRqtFfExhwoXUi/YTMWLXJ8yU7XdwTtUbvVzyelCMAjRXyTkJDI6NsUWu0Z/VA2eiUv0w5tfS2uDjFH/StYDpg8eXdp3; Expires=Thu, 23 Apr 2020 12:32:56 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:56 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=TZYfYI/dpvupmc099qS9rtAz8qwjq8VHoZnYg5iDfgrYvknMdWDDGlNnP4rMNVj2VHwU4ymFiBODOkhjbNJjamXhowC43fDtvmIqRtbLPsNodJ1zWS/XNk2f6I0B; Expires=Thu, 23 Apr 2020 12:32:56 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:56 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=TZYfYI/dpvupmc099qS9rtAz8qwjq8VHoZnYg5iDfgrYvknMdWDDGlNnP4rMNVj2VHwU4ymFiBODOkhjbNJjamXhowC43fDtvmIqRtbLPsNodJ1zWS/XNk2f6I0B; Expires=Thu, 23 Apr 2020 12:32:56 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:56 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=b5Ssq+niL7BDkE5pB2xMo9pYwgc0hkl19IYFNdYcmiZDx6EoGVS5szXDFgV592OgX9XhUAnuSChL/p4OQSgyve1ZiM2n5c3/PPWlzAh2Z8s9DRyrSZ3UJAakvjZg; Expires=Thu, 23 Apr 2020 12:32:57 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:57 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=b5Ssq+niL7BDkE5pB2xMo9pYwgc0hkl19IYFNdYcmiZDx6EoGVS5szXDFgV592OgX9XhUAnuSChL/p4OQSgyve1ZiM2n5c3/PPWlzAh2Z8s9DRyrSZ3UJAakvjZg; Expires=Thu, 23 Apr 2020 12:32:57 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:57 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=uUKMX1A550c6qFcOWWFOrcQw4ba7G6j4B2Ut4X4ZSgoLppV9swEQpYBqopg/FR/su9mrI/Nsk5IkO6k+ggEHi0ibhik4Pln++AY/GbyhdqdeKQX6fBWc6JADrQSs; Expires=Thu, 23 Apr 2020 12:32:57 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:57 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=uUKMX1A550c6qFcOWWFOrcQw4ba7G6j4B2Ut4X4ZSgoLppV9swEQpYBqopg/FR/su9mrI/Nsk5IkO6k+ggEHi0ibhik4Pln++AY/GbyhdqdeKQX6fBWc6JADrQSs; Expires=Thu, 23 Apr 2020 12:32:57 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:57 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=PMsYf4/gwRfVa84+uu4i4QyeLiBe6q3GaGFwHuAYeKzhTFjUuJ2qzcRRCsgggOpXYYf7eFUiCpojGI+BhGpjk3uSLo+4VxbssMKH10oEbJWdGH4Rj4+nFZKyWjvX; Expires=Thu, 23 Apr 2020 12:32:59 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:59 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=PMsYf4/gwRfVa84+uu4i4QyeLiBe6q3GaGFwHuAYeKzhTFjUuJ2qzcRRCsgggOpXYYf7eFUiCpojGI+BhGpjk3uSLo+4VxbssMKH10oEbJWdGH4Rj4+nFZKyWjvX; Expires=Thu, 23 Apr 2020 12:32:59 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:32:59 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=Exd+/NsjLWnGv8XgnU1/XluhTEanRYC1dK9aC8V77FBBFgbNiNW691S+UgV3nDABxxi1jREdro7Rhp+lTngBgLfZZtxe2cMkkUD9PR/YsTOMHSCLB6Ds5cDAeIg7; Expires=Thu, 23 Apr 2020 12:33:00 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:00 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=Exd+/NsjLWnGv8XgnU1/XluhTEanRYC1dK9aC8V77FBBFgbNiNW691S+UgV3nDABxxi1jREdro7Rhp+lTngBgLfZZtxe2cMkkUD9PR/YsTOMHSCLB6Ds5cDAeIg7; Expires=Thu, 23 Apr 2020 12:33:00 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:00 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=9BKKrjl6OTelOtvM6mVrquLE7fXjp0Is+9/RpRs0bFI/FYHO0c0oNb1/avqJMnoajgMbMU16Blyfsp8wrZSZZyVlJeA9RTm3oVOMZR0Mo10UutEtf1GaLu+joASF; Expires=Thu, 23 Apr 2020 12:33:01 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:01 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=9BKKrjl6OTelOtvM6mVrquLE7fXjp0Is+9/RpRs0bFI/FYHO0c0oNb1/avqJMnoajgMbMU16Blyfsp8wrZSZZyVlJeA9RTm3oVOMZR0Mo10UutEtf1GaLu+joASF; Expires=Thu, 23 Apr 2020 12:33:01 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:01 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=gETt96I5I8YNOTTAiijAx7JGZsV5q1UyjuwwSNFXiLoElAJFy8nu1kFVtaeO7lfCZOX+QOL46r1i3qPozEYIWTQoTvLgo7Qd1nMTlRHio0ronB5L3cgt3S7niJup; Expires=Thu, 23 Apr 2020 12:33:02 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:02 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=gETt96I5I8YNOTTAiijAx7JGZsV5q1UyjuwwSNFXiLoElAJFy8nu1kFVtaeO7lfCZOX+QOL46r1i3qPozEYIWTQoTvLgo7Qd1nMTlRHio0ronB5L3cgt3S7niJup; Expires=Thu, 23 Apr 2020 12:33:02 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:02 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=K7ljU99FKvKBwk+ibrx6amh/peT8Me++Ssm3M2gUq2T7hh1JCg/RgabSD0gG54umcX3DtGUZFyv/u+U9hY1k8iyGdcUpPWH20wpNuCSM6+uoE4DMXCbdFp3CJnYW; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=K7ljU99FKvKBwk+ibrx6amh/peT8Me++Ssm3M2gUq2T7hh1JCg/RgabSD0gG54umcX3DtGUZFyv/u+U9hY1k8iyGdcUpPWH20wpNuCSM6+uoE4DMXCbdFp3CJnYW; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=uYjznv0NRyHULoD9nbwx6UlozV4eg2bA4en43BHnM6Fyyz2BGCrQ0C+YxFuGwEL9TOKTMPEZTEKZE19xQY5QVMIbQv5cLg/chJCLD+Y3GfbVK0d+/6xlQN8BPTFQ; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=uYjznv0NRyHULoD9nbwx6UlozV4eg2bA4en43BHnM6Fyyz2BGCrQ0C+YxFuGwEL9TOKTMPEZTEKZE19xQY5QVMIbQv5cLg/chJCLD+Y3GfbVK0d+/6xlQN8BPTFQ; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=sE/1TnyPUuAmC5kY4pm+Em3mAsYyiluQl/3r3bPrAecIg8IknHflpinikOJIDaGZQuh63m8+iPEchx59Q+cPIZbbR8cPMcl5MRVSzve1UYNKzyhj6M8jBorjsAMB; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=sE/1TnyPUuAmC5kY4pm+Em3mAsYyiluQl/3r3bPrAecIg8IknHflpinikOJIDaGZQuh63m8+iPEchx59Q+cPIZbbR8cPMcl5MRVSzve1UYNKzyhj6M8jBorjsAMB; Expires=Thu, 23 Apr 2020 12:33:03 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:03 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=bUb8l/bi5ZNyZD9UsmS+iW4nVRwW2Dm57lBimBUIdDxEwQxQ2FuqsPK3LmE0CAUAmnwl4M5kwKNdaGdEPBeVfHovobgV1O20qfdWKpDlnXBUvLZM2PKuHZRyiDaU; Expires=Thu, 23 Apr 2020 12:33:04 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:04 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=bUb8l/bi5ZNyZD9UsmS+iW4nVRwW2Dm57lBimBUIdDxEwQxQ2FuqsPK3LmE0CAUAmnwl4M5kwKNdaGdEPBeVfHovobgV1O20qfdWKpDlnXBUvLZM2PKuHZRyiDaU; Expires=Thu, 23 Apr 2020 12:33:04 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:04 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=GbkRYzFK2bQHTVXaWR8BoCbTwcSjPEetlRhpeMOLk9kCiDGDsnUPvvAN7PPaXmA8gB7/zLCMTDd3d7gdk0ulPHsDggydEHgcISlrD47kSQyyGcy6yu/CoArj5eIQ; Expires=Thu, 23 Apr 2020 12:33:04 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:04 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=GbkRYzFK2bQHTVXaWR8BoCbTwcSjPEetlRhpeMOLk9kCiDGDsnUPvvAN7PPaXmA8gB7/zLCMTDd3d7gdk0ulPHsDggydEHgcISlrD47kSQyyGcy6yu/CoArj5eIQ; Expires=Thu, 23 Apr 2020 12:33:04 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:04 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=/i+sp6Qq1//GBdu0mmOjx81+U64qLdeq6cgy+czNYaXDMQMn+i626FQXIPXayBay7elGbs/BaADLVARrNrD2KR0tGj9YJuCsVVdt1GVIbTCCH3we3SwwVNguQJ4B; Expires=Thu, 23 Apr 2020 12:33:05 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:05 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=/i+sp6Qq1//GBdu0mmOjx81+U64qLdeq6cgy+czNYaXDMQMn+i626FQXIPXayBay7elGbs/BaADLVARrNrD2KR0tGj9YJuCsVVdt1GVIbTCCH3we3SwwVNguQJ4B; Expires=Thu, 23 Apr 2020 12:33:05 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:05 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=FyAtMHl8745vp2wMQGvZIU4q+qfLbdxb/yLguk4KfUK+TJUjNgTfIRLW1fEoPieCJQXUSnQKf0oT4fQdbSQdVZAXKQ8/qDaxBTISbVHfCff1pM55PoKUFSIh2Giv; Expires=Thu, 23 Apr 2020 12:33:05 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:05 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=FyAtMHl8745vp2wMQGvZIU4q+qfLbdxb/yLguk4KfUK+TJUjNgTfIRLW1fEoPieCJQXUSnQKf0oT4fQdbSQdVZAXKQ8/qDaxBTISbVHfCff1pM55PoKUFSIh2Giv; Expires=Thu, 23 Apr 2020 12:33:05 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:05 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=A8MDgGLlRlGgIrmiqV+NqYcyMlXEVyVv4NeUUw+Ahi4t43lxF4n7Mpi/8hVbxPW4NS18rXImrUM5nmZJ2rC1MoUPDhucflEmPz4aPgZ+/s/jXuDVGpS0Q/1NnmB7; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=A8MDgGLlRlGgIrmiqV+NqYcyMlXEVyVv4NeUUw+Ahi4t43lxF4n7Mpi/8hVbxPW4NS18rXImrUM5nmZJ2rC1MoUPDhucflEmPz4aPgZ+/s/jXuDVGpS0Q/1NnmB7; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=N24hZGg/RzP3OtaRaoAOf+xhbeAFBbxjKgSErBegSgJT0TuJyxHs5QQOjhpiHkNb1vdUsFrsBr8kSgb/tT+ZST9wWF90Vp1ScXul93AZQ1wt0R8WgLbjUs2mAHun; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=N24hZGg/RzP3OtaRaoAOf+xhbeAFBbxjKgSErBegSgJT0TuJyxHs5QQOjhpiHkNb1vdUsFrsBr8kSgb/tT+ZST9wWF90Vp1ScXul93AZQ1wt0R8WgLbjUs2mAHun; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=SubM5wUolsBV0EiYItucxufL6ZXPrjbt/3TgIE236YM4hd/4s8PtAaRG72/GB7KpNSZOJo+wQwIA76jzP5gk2c7UCmwrzoaDfUNZ3rUCrCMGyKfEyFCd3nIlj11D; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=SubM5wUolsBV0EiYItucxufL6ZXPrjbt/3TgIE236YM4hd/4s8PtAaRG72/GB7KpNSZOJo+wQwIA76jzP5gk2c7UCmwrzoaDfUNZ3rUCrCMGyKfEyFCd3nIlj11D; Expires=Thu, 23 Apr 2020 12:33:06 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:06 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=vP1lO668vzP03BDNmwQDXrJwFoXEi83DTbf/YXRZnEqplX/grqQ3olGkKXYXqzSN7ZkVVIA3Lgd038Wo3HWAdnx4rz2PYDZOUf86u4CGikPY6kU+70rA0EjgGVd9; Expires=Thu, 23 Apr 2020 12:33:07 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:07 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=vP1lO668vzP03BDNmwQDXrJwFoXEi83DTbf/YXRZnEqplX/grqQ3olGkKXYXqzSN7ZkVVIA3Lgd038Wo3HWAdnx4rz2PYDZOUf86u4CGikPY6kU+70rA0EjgGVd9; Expires=Thu, 23 Apr 2020 12:33:07 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:07 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=axCcrKOwOzVhQrwQezuM1+SUq85sR9/Teumv3aFO7jePhfz+wHwk0qyO8g9Bw0u25SfATUk8tL5CjBMwVeCYueNAllPPSBJdyr5xHY0xW8aLyjkozoGehzKMBgrZ; Expires=Thu, 23 Apr 2020 12:33:07 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:07 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=axCcrKOwOzVhQrwQezuM1+SUq85sR9/Teumv3aFO7jePhfz+wHwk0qyO8g9Bw0u25SfATUk8tL5CjBMwVeCYueNAllPPSBJdyr5xHY0xW8aLyjkozoGehzKMBgrZ; Expires=Thu, 23 Apr 2020 12:33:07 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:07 GMT
-Invalid cookie header: "Set-Cookie: AWSALB=dsy2TiLcbtijZQ8RZfL9O7cyAgjBS5YMMstPYO7IfeUS6vrFjnMv6SILuBnfGnv/oxfLrXOZpQ0wjTACSDLfgWRUDfZ0wIvCPI7GYL04WR/3vijRFCQfgXpL4wJK; Expires=Thu, 23 Apr 2020 12:33:08 GMT; Path=/". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:08 GMT
-Invalid cookie header: "Set-Cookie: AWSALBCORS=dsy2TiLcbtijZQ8RZfL9O7cyAgjBS5YMMstPYO7IfeUS6vrFjnMv6SILuBnfGnv/oxfLrXOZpQ0wjTACSDLfgWRUDfZ0wIvCPI7GYL04WR/3vijRFCQfgXpL4wJK; Expires=Thu, 23 Apr 2020 12:33:08 GMT; Path=/; SameSite=None". Invalid 'expires' attribute: Thu, 23 Apr 2020 12:33:08 GMT
+    INVOKEVIRTUAL net/minecraft/inventory/Slot.func_111238_b ()Z
+    IFEQ L0
+
+	at codechicken.lib.asm.InsnComparator.findN(InsnComparator.java:181) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.InsnComparator.findN(InsnComparator.java:187) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer$MethodInjector.transform(ModularASMTransformer.java:199) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer$MethodTransformer.transform(ModularASMTransformer.java:88) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer$ClassNodeTransformerList.transform(ModularASMTransformer.java:36) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.lib.asm.ModularASMTransformer.transform(ModularASMTransformer.java:283) ~[CodeChickenLib-1.7.10-1.1.3.140-dev.jar:?]
+	at codechicken.nei.asm.NEITransformer.transform(NEITransformer.java:265) ~[NotEnoughItems-1.7.10-2.0.1-GTNH-universal-2906319.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_241]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_241]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_241]
+	at net.minecraft.client.main.Main.main(Main.java:79) ~[Main.class:?]
+	... 8 more
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: cpw.mods.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:25)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.Runtime.exit(Runtime.java:107)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.System.exit(System.java:971)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+[15:19:13] [main/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at GradleStart.main(Unknown Source)
+:runClient FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runClient'.
+> Process 'command 'C:\Program Files\Java\jdk1.8.0_241\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.592 secs
