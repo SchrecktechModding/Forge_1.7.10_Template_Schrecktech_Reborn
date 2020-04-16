@@ -121,5 +121,25 @@
       <option name="name" value="goorymoon" />
       <option name="url" value="https://gorymoon.se/maven" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Vexatos" />
+      <option name="name" value="Vexatos" />
+      <option name="url" value="https://files.vexatos.com/?dir=" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Vexatos" />
+      <option name="name" value="Vexatos" />
+      <option name="url" value="https://files.vexatos.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gorymoon" />
+      <option name="name" value="gorymoon" />
+      <option name="url" value="https://gorymoon.se/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="forge2" />
+      <option name="name" value="forge2" />
+      <option name="url" value="https://files.minecraftforge.net/maven/" />
+    </remote-repository>
   </component>
 </project>

@@ -57,6 +57,7 @@ archivesBaseName = "modid"
 minecraft {
 	version = "1.7.10-10.13.4.1614-1.7.10"
 	runDir = ".minecraft"
+	mappings = 'stable_12'
 }
 
 sourceCompatibility = 1.8
@@ -69,7 +70,7 @@ repositories {
 	}
 	maven {
 		name = "forge"
-		url = "https://files.minecraftforge.net/maven"
+		url = "https://files.minecraftforge.net/maven/"
 	}
 	maven {
 		name = "gt"
@@ -80,12 +81,8 @@ repositories {
 		url = "http://maven.ic2.player.to/"
 	}
 	maven {
-		name = "chickenbones"
-		url = "http://chickenbones.net/maven/"
-	}
-	maven {
 		name = "Apple"
-		url "http://www.ryanliptak.com/maven/"
+		url ="http://www.ryanliptak.com/maven/"
 	}
 	maven {
 		name = 'progwml6'
@@ -99,10 +96,6 @@ repositories {
 		name = "OpenComputers Repo"
 		url = "http://maven.cil.li/"
 	}
-	maven { //jabba, waila
-		name = "Mobius"
-		url = "http://mobiusstrip.eu/maven/"
-	}
 	maven {
 		name = "bdew"
 		url = "https://jenkins.bdew.net/maven/"
@@ -113,7 +106,7 @@ repositories {
 	}
 	maven {
 		name = "gorymoon"
-		url = "https://gorymoon.se/maven"
+		url = "https://gorymoon.se/maven/"
 	}
 }
 
@@ -138,7 +131,7 @@ dependencies {
 	compile "aroma1997core:Aroma1997Core:1.7.10:1.0.2.16"
 	compile "aromabackup:AromaBackup:1.7.10:0.1.0.0"
 	compile "aroma1997s-dimensional-world:Aroma1997s-Dimensional-World:1.7.10:1.1.0.1"
-	compile "baubles:Baubles:1.7.10:1.0.1.10"
+	compile "com.azanor.baubles:Baubles:1.7.10-1.0.1.10:deobf"
 	compile "net.bdew:bdlib:1.9.4.109-mc1.7.10"
 	compile "curse.maven:BetterBuildersWands-0.8.1-1.7.10r92+aec06c3-dev:2356821"
 	compile "curse.maven:biggerpacketsplz-upto1.7.10-1.2:2655844"
@@ -185,8 +178,62 @@ dependencies {
 	compile "iron-chests:ironchest-1.7.10:6.0.62.742:universal"
 	compile "mcp.mobius.jabba:Jabba:1.2.2_1.7.10:dev"
 	compile "journeymap:journeymap-1.7.10:5.1.4p2:unlimited"
+	compile "magic-bees:magicbees:1.7.10:2.4.4"
+	compile "curse.maven:malisiscore-1.7.10-0.14.3-dev:2283268"
+	compile "curse.maven:malisisdoors-1.7.10-1.13.2-dev:2284381"
+	compile "mantle:Mantle:1.7.10:0.3.2b"
+	compile "minetweaker-recipemaker:MineTweakerRecipeMaker:1.7.10:1.1.1"
+	compile "curse.maven:MobAmputation-4.0.1:2239204"
+	compile "curse.maven:MobDismemberment-4.0.0:2232121"
+	compile "curse.maven:Modpack Configuration Checker-1.7.10-v1.5.3:2713414"
+	compile "curse.maven:MoreChisels-1.7.10-1.0.28-deobf:2263982"
+	compile "morpheus:Morpheus:1.7.10:1.6.21"
+	compile "mouse-tweaks:MouseTweaks:2.4.4:mc1.7.10"
+	compile "natura:natura:1.7.10:2.2.1a2"
+	compile "natures-compass:NaturesCompass:1.7.10:1.3.1"
+	compile "curse.maven:Neat 1.0-1:2268525"
+	compile "netherportalfix:netherportalfix:mc1.7.10:1.1.0"
+	compile "curse.maven:NoMoreRecipeConflict-0.3(1.7.10):2267374"
+	compile "curse.maven:NotEnoughIDs-1.4.2-deobf:2275081"
+	compile "curse.maven:NotEnoughItems-1.7.10-2.0.1-GTNH-universal:2906319"
+	compile "curse.maven:NotEnoughKeys-1.7.10.3.0.0b45.dev-universal:2276280"
+	compile "curse.maven:NotEnoughResources-1.7.10-0.1.0-128:2323485"
+	compile "openblocks:OpenBlocks:1.7.10-1.6-1.7.10:deobf"
+	compile "li.cil.oc:OpenComputers:MC1.7.10-1.7.2.1204:dev"
+	compile "openmods:OpenModsLib:1.7.10-0.10:deobf"
+	compile "curse.maven:OpenModularTurrets-1.7.10-2.2.11-245:2549788"
+	compile "p455w0rds-library:p455w0rdslib:1.7.10:1.0.4"
+	compile "curse.maven:Pam's Get all the Seeds 1.7.10a:2245851"
+	compile "curse.maven:Pam's Harvest the Nether 1.7.10a:2241397"
+	compile "curse.maven:Pam's HarvestCraft 1.7.10Lb:2270206"
+	//compile "curse.maven:PerfectSpawn-1.1:2212916" buggy mcp
+	compile "practical-logistics:Practical-Logistics-1.7.10:0.2.4:dev"
+	compile "mrtjp:ProjectRed:1.7.10-4.7.0pre9.52:dev"
+	compile "mods.railcraft:Railcraft_1.7.10:9.12.3.0:dev"
+	//compile "curse.maven:RandomThings-2.2.4:2225310" buggy mcp
+	compile "curse.maven:ReAuth-3.5.0:2433392"
+	compile "roguelike-dungeons:roguelike:1.7.10:1.5.0b"
+	compile "realistic-terrain-generation:RTG:1.7.10:1.1.1.7"
+	compile "sonar-core:SonarCore-1.7.10:1.1.3:dev"
+	compile "streams:Streams:1.7.10:0.3.4"
+	compile "tinkers-construct:TConstruct:1.7.10:1.8.8.build991"
+	compile files("lib/TGregworks-1.7.10-1.0.18-deobf.jar")
+	compile "tic-tooltips:TiCTooltips:mc1.7.10:1.2.5"
+	compile "mcp.mobius.waila:Waila:1.5.10_1.7.10:dev"
+	compile "waila-features:WAILA-features:1.7.10:0.1.0"
+	compile "curse.maven:WarpDrive-1.7.10-1.4.2:2578306"
+	compile "curse.maven:Wawla-1.0.5.120:2298772"
+	compile "curse.maven:WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b-deobf:2460356"
+	compile "zombie-awareness:zombieawareness:1.7.10:1.10"
+	compile "ztones:Ztones:1.7.10:2.2.1"
+	//compile "curse.maven:[1.7.10]ArmorStatusHUD-client-1.28:2218859"
+	//compile "curse.maven:[1.7.10]MoVillages-1.4.2:2309559"
+	//compile "curse.maven:[1.7.10]StartingInventory-universal-1.7.10.r03:2218985"
+	//compile "curse.maven:[1.7.10]StatusEffectHUD-client-1.27:2218935"
+	compile "mrtjp:MrTJPCore:1.7.10-1.0.8.16:dev"
+	compile "yuutolib:YuutoLib-1.7.10:1.0.3:dev"
+	compile "curse.maven:[1.7.10]bspkrsCore-universal-6.16:2227503"
 
-	compile "codechicken:NotEnoughItems:1.7.10-1.0.5.120:dev"
 }
 
 runClient {
