@@ -136,7 +136,8 @@ dependencies {
 	compile "com.github.glitchfiend.biomesoplenty:BiomesOPlenty:1.7.10-2.1.0.2308:deobf"
 	compile files("lib/BrandonsCore-1.0.0.12.jar")
 	compile "curse.maven:Carpenter's Blocks v3.3.8.2 - MC 1.7.10:2719376"
-	compile "chisel:Chisel:2.9.5.11" //:deobf crashes game
+	compile "chisel:Chisel:2.9.5.11:deobf" // crashes game
+	compile "ctmlib:CTMLib-MC1.7.10:1.4.1.5:deobf"
 	compile "codechicken:CodeChickenCore:1.7.10-1.0.7.47:dev"
 	compile "codechicken:CodeChickenLib:1.7.10-1.1.3.140:dev"
 	compile "codechicken:ForgeMultipart:1.7.10-1.2.0.347:dev"
@@ -175,8 +176,8 @@ dependencies {
 	compile "mcp.mobius.jabba:Jabba:1.2.2_1.7.10:dev"
 	compile "journeymap:journeymap-1.7.10:5.1.4p2:unlimited"
 	compile "magic-bees:magicbees:1.7.10:2.4.4"
-	//compile "curse.maven:malisiscore-1.7.10-0.14.3:2283267" //2283268 for dev
-	//compile "curse.maven:malisisdoors-1.7.10-1.13:2284380" //2284381 for dev
+	//compile "curse.maven:malisiscore-1.7.10-0.14.3-dev:2283268"
+	//compile "curse.maven:malisisdoors-1.7.10-1.13.2-dev:2284381"
 	compile "mantle:Mantle:1.7.10:0.3.2b"
 	compile "minetweaker-recipemaker:MineTweakerRecipeMaker:1.7.10:1.1.1"
 	compile "curse.maven:MobAmputation-4.0.1:2239204"
@@ -184,7 +185,7 @@ dependencies {
 	compile "curse.maven:Modpack Configuration Checker-1.7.10-v1.5.3:2713414"
 	compile "curse.maven:MoreChisels-1.7.10-1.0.28-deobf:2263982"
 	compile "morpheus:Morpheus:1.7.10:1.6.21"
-	compile "qmunitylib:QmunityLib-1.7.10:0.1.114:universal"
+	compile "qmunitylib:QmunityLib-1.7.10:0.1.114:universal" //__/\
 	compile "mouse-tweaks:MouseTweaks:2.4.4:mc1.7.10"
 	compile "natura:natura:1.7.10:2.2.1a2"
 	compile "natures-compass:NaturesCompass:1.7.10:1.3.1"
@@ -196,7 +197,7 @@ dependencies {
 	compile "curse.maven:NotEnoughKeys-1.7.10.3.0.0b45.dev-universal:2276280"
 	compile "curse.maven:NotEnoughResources-1.7.10-0.1.0-128:2323485"
 	compile "openblocks:OpenBlocks:1.7.10-1.6-1.7.10:deobf"
-	//compile "opencomputers:OpenComputers-MC1.7.10:1.7.5.1290:universal"
+	compile "opencomputers:OpenComputers-MC1.7.10:1.7.5.1290:universal"
 	compile "openmods:OpenModsLib:1.7.10-0.10:deobf"
 	compile "curse.maven:OpenModularTurrets-1.7.10-2.2.11-245:2549788"
 	compile "p455w0rds-library:p455w0rdslib:1.7.10:1.0.4"
@@ -205,7 +206,9 @@ dependencies {
 	compile "curse.maven:Pam's HarvestCraft 1.7.10Lb:2270206"
 	//compile "curse.maven:PerfectSpawn-1.1:2212916" buggy mcp
 	compile "practical-logistics:Practical-Logistics-1.7.10:0.2.4:dev"
-	//compile "curse.maven:ProjectRed-1.7.10-4.7.0pre12.95-dev:2280729" wtf
+	compile "curse.maven:ProjectRed-1.7.10-4.7.0pre12.95-dev:2280729" //    wtf
+	compile "curse.maven:ForgeRelocation-0.0.1.4-universal:2249874" //     __/\
+	compile "curse.maven:ForgeRelocationFMP-0.0.1.2-universal:2244822" //  __/\
 	compile "mods.railcraft:Railcraft_1.7.10:9.12.3.0:dev"
 	//compile "curse.maven:RandomThings-2.2.4:2225310" buggy mcp
 	compile "curse.maven:ReAuth-3.5.0:2433392"
@@ -234,7 +237,7 @@ dependencies {
 }
 
 runClient {
-	jvmArgs "-Xmx4096m", "-Xms1024m"
+	jvmArgs "-Xmx4096m", "-Xms1024m", "-Dfml.coreMods.load=li.cil.oc.common.launch.TransformerLoader"
 }
 
 runServer {
